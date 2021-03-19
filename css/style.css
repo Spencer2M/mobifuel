@@ -1,0 +1,39 @@
+table{
+        width:300px;
+        margin:auto;
+        text-align: center;
+        table-layout: fixed;
+        
+      
+      }
+      
+      table ,tr,th,td {
+        padding:10px;
+        color:white;
+        background-color:red;
+        border:5px solid black;
+        border-collapse: collapse;
+        font-size:18px ;
+        font-family: Arial;
+      
+      
+      }
+      td:hover{ 
+        background-color:18px solid pink ;
+        background:rgb(41, 212, 26);
+        }
+      
+      table th{ background-color:black; 
+      }
+      body{
+        background-color:aliceblue;
+        background-image: url("wood.jpg");
+      }
+      @media (max-width: 800px){
+              .d-none{
+                      display: block !important;
+              }
+              .d-card{
+                      width: 100% !important;
+              }
+      }
